@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Vite
+/dist/
+/node_modules/
+/.cache/
+/public/build/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# IDE files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

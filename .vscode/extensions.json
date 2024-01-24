@@ -1,4 +1,3 @@
 {
-  "recommendations": ["astro-build.astro-vscode"],
-  "unwantedRecommendations": []
+	"recommendations": ["formulahendry.auto-rename-tag", "dbaeumer.vscode-eslint", "wesbos.theme-cobalt2", "mohd-akram.vscode-html-format", "mgmcdermott.vscode-language-babel"]
 }

@@ -1,13 +1,24 @@
 {
+	// Editor Settings
 	"editor.fontSize": 18,
-	"terminal.integrated.fontSize": 16,
 	"editor.tabSize": 2,
 	"editor.wordWrap": "off",
 	"editor.renderWhitespace": "all",
-	"liveServer.settings.donotShowInfoMsg": true,
 	"editor.bracketPairColorization.enabled": true,
 	"editor.guides.bracketPairs": "active",
-	"bracket-pair-colorizer-2.activeScopeCSS": ["borderStyle : solid", "borderWidth : 1px", "borderColor : {color}", "opacity: 0.5"],
+	"editor.multiCursorModifier": "alt",
+	"editor.largeFileOptimizations": false,
+	"editor.cursorStyle": "line-thin",
+	"editor.wordWrapColumn": 120,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.accessibilityPageSize": 20,
+
+	// Terminal Settings
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+
+	// Emmet Settings
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact",
 		"typescript": "typescriptreact",
@@ -16,61 +27,72 @@
 		"razor": "html",
 		"plaintext": "jade"
 	},
-	"editor.multiCursorModifier": "alt",
-	"editor.largeFileOptimizations": false,
-	"[javascript]": {
-		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"diffEditor.ignoreTrimWhitespace": false,
-	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
+	"emmet.excludeLanguages": ["markdown", "Comment"],
+	"emmet.syntaxProfiles": {},
+
+	// Live Server Settings
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+
+	// Prettier Settings
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"prettier.printWidth": 200,
+	"prettier.arrowParens": "avoid",
+	"prettier.endOfLine": "auto",
+	"prettier.jsxSingleQuote": true,
+
+	// File Associations
 	"files.associations": {
 		"*.css": "css",
 		"*.js": "javascriptreact",
 		"*.md": "markdown"
 	},
+
+	// Workbench Settings
 	"workbench.iconTheme": "vscode-icons",
-
-	"editor.cursorStyle": "line-thin",
-	"sync.gist": "d98b6a9f430f619f071b0d66b4a15a6e",
-	"editor.wordWrapColumn": 120,
-
-	"[css]": {
-		"editor.defaultFormatter": "vscode.css-language-features"
-	},
 	"workbench.startupEditor": "newUntitledFile",
-	"[scss]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	"workbench.colorTheme": "Cobalt2",
+	"workbench.colorCustomizations": {
+		"titleBar.activeForeground": "#ffffff",
+		"titleBar.inactiveForeground": "#cecececc",
+		"titleBar.activeBackground": "#8d37a5",
+		"titleBar.inactiveBackground": "#8d37a5"
 	},
+
+	// Explorer Settings
 	"explorer.confirmDelete": false,
-	"[markdown]": {},
-	"eslint.alwaysShowStatus": true,
-	"eslint.codeAction.disableRuleComment": {
-		"enable": true
-	},
+
+	// ESLint Settings
+	"eslint.codeAction.disableRuleComment": { "enable": true },
 	"eslint.format.enable": true,
 	"eslint.lintTask.enable": true,
 	"eslint.quiet": true,
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"prettier.useTabs": true,
-	"prettier.singleQuote": true,
 	"eslint.run": "onSave",
 	"eslint.workingDirectories": ["./src"],
-	"[javascriptreact]": {
+
+	// CSS and Stylelint Settings
+	"css.validate": false,
+	"stylelint.enable": true,
+	"scss.validate": false,
+
+	// PHP Settings
+	"[php]": { "editor.defaultFormatter": "fterrag.vscode-php-cs-fixer" },
+	"php.validate.executablePath": "C:/Program Files/php-8.0.9/php.exe",
+
+	// Other Language Settings
+	"[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[css]": { "editor.defaultFormatter": "vscode.css-language-features" },
+	"[scss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[javascript]": {
+		"editor.formatOnSave": true,
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"prettier.jsxSingleQuote": true,
-	"sync.autoDownload": true,
-	"sync.autoUpload": true,
-	"sync.forceDownload": true,
-	"scss.lint.duplicateProperties": "warning",
-	"javascript.preferences.quoteStyle": "single",
-	"html-css-class-completion.enableEmmetSupport": true,
+	"[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[markdown]": {},
+
+	// Live Sass Compile Settings
 	"liveSassCompile.settings.formats": [
 		{
 			"format": "compressed",
@@ -79,29 +101,10 @@
 		}
 	],
 	"liveSassCompile.settings.includeItems": [],
-	"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
-	"editor.formatOnSave": true,
-	"prettier.printWidth": 200,
-	"emmet.excludeLanguages": ["markdown", "Comment"],
-	"emmet.syntaxProfiles": {},
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"html.format.indentInnerHtml": true,
-	"html.format.wrapAttributes": "auto",
-	"prettier.arrowParens": "avoid",
-	"prettier.endOfLine": "auto",
-	"editor.accessibilityPageSize": 20,
-	"php.validate.executablePath": "C:/Program Files/php-8.0.9/php.exe",
-	"auto-rename-tag.activationOnLanguage": ["*"],
-	"terminal.integrated.defaultProfile.windows": "Git Bash",
-	"workbench.colorCustomizations": {
-		"titleBar.activeForeground": "#ffffff",
-		"titleBar.inactiveForeground": "#cecececc",
-		"titleBar.activeBackground": "#8d37a5",
-		"titleBar.inactiveBackground": "#8d37a5"
-	},
-	"workbench.colorTheme": "Cobalt2",
+
+	// Git Settings
 	"git.ignoreLimitWarning": true,
-	"[php]": {
-		"editor.defaultFormatter": "fterrag.vscode-php-cs-fixer"
-	}
+
+	// CSS Custom Data
+	"css.customData": [".vscode/css_custom_data.json"]
 }

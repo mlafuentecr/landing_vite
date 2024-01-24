@@ -1,0 +1,35 @@
+# Landing Page with Vite, Sass, and Tailwind CSS
+
+This is a simple landing page project built with Vite, Sass, and Tailwind CSS.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Customization](#customization)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version x.x.x)
+- [npm](https://www.npmjs.com/) (version x.x.x)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/landing-page-vite-sass-tailwind.git
+
+3. html parts
+
+   ```bash
+   tailwindflex https://tailwindflex.com/@prem/product-page

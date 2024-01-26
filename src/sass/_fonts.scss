@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto Regular'), local('Roboto-Regular'), url(/public/fonts/Roboto/Roboto-Regular.ttf) format('woff2');
+	font-display: swap;
+}
+
+// USAGE
+body {
+	font-family: 'Roboto Regular', sans-serif;
+}

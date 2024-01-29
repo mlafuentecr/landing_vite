@@ -1,13 +1,14 @@
 // vite.config.js
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
 	dev: {
-		outDir: './public/js/', // Set the output directory to 'public'
+		outDir: './public/',
 	},
 	build: {
-		outDir: './public/js/', // Set the output directory to 'public'
+		outDir: './public/',
 	},
 	css: {
 		preprocessorOptions: {
@@ -37,6 +38,14 @@ export default defineConfig({
 			webp: {
 				lossless: true,
 			},
+		}),
+		viteStaticCopy({
+			targets: [
+				{
+					src: './src/images/',
+					dest: './assets/images/',
+				},
+			],
 		}),
 	],
 });
